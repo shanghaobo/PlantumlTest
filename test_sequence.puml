@@ -1,0 +1,24 @@
+@startuml
+title: 微信公众号授权流程
+' 测试时序图
+
+actor 用户
+participant 微信客户端
+participant 微信服务器
+participant 系统服务器
+
+
+用户 -> 微信客户端: 点击公众号菜单
+微信客户端 -> 微信服务器: 携带redict_url请求
+微信服务器 -> 系统服务器: 请求回调接口(redict_url,code)
+微信服务器 <-- 系统服务器: 获取用户openid
+微信服务器 -> 系统服务器: openid, access_token
+微信服务器 <-- 系统服务器: 获取用户基本信息\n(nickname,headimg等)
+系统服务器 --> 系统服务器: 生成userid并写入session
+系统服务器 --> 系统服务器: 生成新的redict_url
+微信客户端 <-- 系统服务器: 跳转到新的redict_url
+用户 <-- 微信客户端: 进入系统
+
+
+
+@enduml
