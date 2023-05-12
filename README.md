@@ -14,6 +14,10 @@
 
   ![](images/test_class.svg)
 
+- [活动图](code/test_activaty.puml)
+
+  ![](images/test_activaty.svg)
+
 - [Json](code/test_json.puml)
 
   ![](images/test_json.svg)

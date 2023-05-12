@@ -1,0 +1,22 @@
+@startuml
+' 测试plantuml活动图
+skinparam ConditionEndStyle hline
+title: 测试审批流程
+start
+:前置流程...;
+while (True) is (yes)
+    :创建/编辑审批单;
+    if (a审批) then (yes)
+        if (b审批) then (yes)
+            if (c审批) then (yes)
+                break
+            else (no)
+            endif
+        else (no)
+        endif
+    else (no)
+    endif
+endwhile (no)
+:后续流程...;
+stop
+@enduml
