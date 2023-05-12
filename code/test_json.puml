@@ -1,4 +1,5 @@
 @startjson
+' 测试json
 {
   "firstName": "John",
   "lastName": "Smith",
