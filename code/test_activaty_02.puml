@@ -1,0 +1,47 @@
+@startuml
+title: 测试系统登录流程
+|用户|
+start
+:用户打开网站;
+|#lightyellow|前端|
+:请求后台数据;
+|#AntiqueWhite|后端|
+if (用户是否登录) then (yes)
+    |前端|
+    :跳转到首页;
+    |用户|
+    :用户进入系统;
+    stop
+else (no)
+    |前端|
+    :跳转到登录页;
+    label null;
+    |用户|
+    while (True) is (yes)
+   
+        :输入账号密码;
+        :点击登录;
+        |前端|
+        :请求后端登录接口;
+        |后端|
+        if (账号密码是否正确) then (yes)
+            :登录成功;
+            |前端|
+            :跳转到首页;
+            |用户|
+            break
+            
+        else (no)
+            |后端|
+            :登录失败; 
+            label null
+            |前端|
+            :提示账号密码错误;
+        
+        endif
+     endwhile (no)
+endif
+|用户|
+:用户进入系统;
+stop
+@enduml

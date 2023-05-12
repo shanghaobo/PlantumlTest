@@ -28,6 +28,10 @@ PlantUML 官网：[https://plantuml.com](https://plantuml.com/)
 
   ![](images/test_activaty.svg)
 
+- [02 测试登录流程](code/test_activaty_02.puml)
+
+  ![](images/test_activaty_02.svg)
+
 ## JSON(Json Diagram)
 
 - [01 测试 Json](code/test_json.puml)
