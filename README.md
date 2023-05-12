@@ -1,4 +1,4 @@
-# PlantUML Test
+# PlantumlTest
 
 > 使用 PlantUML 语法绘制各种图测试
 
