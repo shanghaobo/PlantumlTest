@@ -1,5 +1,7 @@
 # PlantUML Test
 
+> 使用 PlantUML 语法绘制各种图测试
+
 - [时序图](code/test_sequence.puml)
 
   ![](images/test_sequence.svg)
