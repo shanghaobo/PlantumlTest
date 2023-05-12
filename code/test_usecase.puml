@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor 用户 as user
+actor 管理员 as admin
+rectangle 测试用例图{
+    usecase 登录 as login
+    usecase 注册 as register
+    usecase 创建 as create
+    usecase 编辑 as edit
+    usecase 管理 as manager
+}
+user --> login
+user --> register
+user --> create
+user --> edit
+manager <-- admin
+login <-- admin
+@enduml

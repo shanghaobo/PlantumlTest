@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="361px" preserveAspectRatio="none" style="width:266px;height:361px;background:#FFFFFF;" version="1.1" viewBox="0 0 266 361" width="266px" zoomAndPan="magnify"><defs/><g><!--MD5=[463d5fa92263267cf88cb7f094d2895c]
+cluster 测试用例图--><g id="cluster_测试用例图"><rect fill="none" height="348" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="95" x="78" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="72.1875" x="89.4063" y="23.5332">测试用例图</text></g><g id="elem_login"><ellipse cx="125.2843" cy="58.9517" fill="#F1F1F1" rx="31.2843" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="111.2843" y="62.6802">登录</text></g><g id="elem_register"><ellipse cx="125.2843" cy="124.9517" fill="#F1F1F1" rx="31.2843" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="111.2843" y="128.6802">注册</text></g><g id="elem_create"><ellipse cx="125.2843" cy="190.9517" fill="#F1F1F1" rx="31.2843" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="111.2843" y="194.6802">创建</text></g><g id="elem_edit"><ellipse cx="125.2843" cy="256.9517" fill="#F1F1F1" rx="31.2843" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="111.2843" y="260.6802">编辑</text></g><g id="elem_manager"><ellipse cx="125.2843" cy="322.9517" fill="#F1F1F1" rx="31.2843" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="111.2843" y="326.6802">管理</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="20" cy="127.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M20,135.5 L20,162.5 M7,143.5 L33,143.5 M20,162.5 L7,177.5 M20,162.5 L33,177.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="6" y="193.5332">用户</text></g><!--MD5=[79a439086b036a57b90a01d7b2f8bbd1]
+entity admin--><g id="elem_admin"><ellipse cx="238" cy="160.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M238,168.5 L238,195.5 M225,176.5 L251,176.5 M238,195.5 L225,210.5 M238,195.5 L251,210.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="217" y="226.5332">管理员</text></g><!--MD5=[723f75bbc208f5e0dee037db49810223]
+link user to login--><g id="link_user_login"><path d="M34.14,136.09 C43.09,122.35 55.86,104.87 70,92 C78.3,84.45 88.57,77.7 97.96,72.31 " fill="none" id="user-to-login" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="102.48,69.77,92.6735,70.6823,98.1187,72.2152,96.5858,77.6604,102.48,69.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9efbf0aa3685402ef2508fa27f18083c]
+link user to register--><g id="link_user_register"><path d="M34.11,153.82 C48.95,149.09 73.65,141.21 93.48,134.89 " fill="none" id="user-to-register" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="98.41,133.32,88.6187,132.2565,93.6484,134.8454,91.0594,139.8751,98.41,133.32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[32b552178882fbde086e5f7697725f5a]
+link user to create--><g id="link_user_create"><path d="M34.11,162.18 C48.95,166.91 73.65,174.79 93.48,181.11 " fill="none" id="user-to-create" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="98.41,182.68,91.0594,176.1249,93.6484,181.1546,88.6187,183.7435,98.41,182.68" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fefe1cf5f95add96e25b4c12f1467f65]
+link user to edit--><g id="link_user_edit"><path d="M34.14,179.91 C43.09,193.65 55.86,211.13 70,224 C78.3,231.55 88.57,238.3 97.96,243.69 " fill="none" id="user-to-edit" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="102.48,246.23,96.5858,238.3396,98.1187,243.7848,92.6735,245.3177,102.48,246.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a1373d981b61e42486b8de475537a88]
+reverse link manager to admin--><g id="link_manager_admin"><path d="M153.81,310.1 C163.18,304.78 173.25,297.98 181,290 C197.64,272.86 211.06,249.8 220.59,230.25 " fill="none" id="manager-backto-admin" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="149.28,312.59,159.0933,311.7539,153.6602,310.1788,155.2353,304.7456,149.28,312.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dc307a13130d5d5bade7f0bdc4388a74]
+reverse link login to admin--><g id="link_login_admin"><path d="M153.81,71.9 C163.18,77.22 173.25,84.02 181,92 C197.64,109.14 211.06,132.2 220.59,151.75 " fill="none" id="login-backto-admin" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="149.28,69.41,155.2353,77.2544,153.6602,71.8212,159.0933,70.2461,149.28,69.41" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[254d72a3db41eaa4be8cb047cb287a76]
+@startuml
+left to right direction
+actor 用户 as user
+actor 管理员 as admin
+rectangle 测试用例图{
+    usecase 登录 as login
+    usecase 注册 as register
+    usecase 创建 as create
+    usecase 编辑 as edit
+    usecase 管理 as manager
+}
+user - -> login
+user - -> register
+user - -> create
+user - -> edit
+manager <- - admin
+login <- - admin
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 HKT 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: zh
+Country: CN
+--></g></svg>
