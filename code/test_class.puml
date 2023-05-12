@@ -1,0 +1,38 @@
+@startuml
+title: 示例ER图
+'测试plantuml类图
+entity User{
+    id
+    username
+    password
+}
+entity Wj{
+    id
+    title
+    desc
+    user_id
+}
+entity Question{
+    id
+    type
+    title
+}
+entity Options{
+    id
+    title
+}
+entity Submit{
+    id
+}
+entity Answer{
+    id
+    answer
+}
+Wj }-- User
+User -{ Submit
+Wj -{ Submit
+Submit -{ Answer
+Question -{ Options
+Wj -{ Question
+
+@endyaml

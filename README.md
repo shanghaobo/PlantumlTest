@@ -8,6 +8,10 @@
 
   ![](images/test_usecase.svg)
 
+- [类图](code/test_class.puml)
+
+  ![](images/test_class.svg)
+
 - [Json](code/test_json.puml)
 
   ![](images/test_json.svg)
