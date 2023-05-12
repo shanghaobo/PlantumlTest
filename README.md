@@ -24,9 +24,9 @@ PlantUML 官网：[https://plantuml.com](https://plantuml.com/)
 
 ## 活动图(Activity Diagram)
 
-- [01 测试审批流程](code/test_activaty.puml)
+- [01 测试审批流程](code/test_activaty_01.puml)
 
-  ![](images/test_activaty.svg)
+  ![](images/test_activaty_01.svg)
 
 - [02 测试登录流程](code/test_activaty_02.puml)
 
